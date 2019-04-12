@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		951B6EC52255EBF600377BB4 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951B6EC42255EBF600377BB4 /* ContainerView.swift */; };
+		95261F0722080C60003A7244 /* PushStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95261F0622080C60003A7244 /* PushStackView.swift */; };
+		95261F09220C87E0003A7244 /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95261F08220C87E0003A7244 /* UIView+Animations.swift */; };
+		95812AC32212556400D10292 /* TimestampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95812AC22212556400D10292 /* TimestampView.swift */; };
+		95812AC7221320EC00D10292 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95812AC6221320EC00D10292 /* TimerView.swift */; };
+		95832FD7221DF32F004B025B /* TimerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95832FD6221DF32F004B025B /* TimerButton.swift */; };
+		95832FDB2228EF68004B025B /* RingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95832FDA2228EF68004B025B /* RingButton.swift */; };
+		95832FDD2229F55F004B025B /* RingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95832FDC2229F55F004B025B /* RingLayer.swift */; };
 		958C10A021EF7CF7002C9E7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958C109F21EF7CF7002C9E7A /* AppDelegate.swift */; };
-		958C10A221EF7CF7002C9E7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958C10A121EF7CF7002C9E7A /* ViewController.swift */; };
 		958C10A521EF7CF7002C9E7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958C10A321EF7CF7002C9E7A /* Main.storyboard */; };
 		958C10A721EF7CFB002C9E7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 958C10A621EF7CFB002C9E7A /* Assets.xcassets */; };
 		958C10AA21EF7CFB002C9E7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958C10A821EF7CFB002C9E7A /* LaunchScreen.storyboard */; };
 		958C10B521EF7CFC002C9E7A /* TimeTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958C10B421EF7CFC002C9E7A /* TimeTrackerTests.swift */; };
 		958C10C021EF7CFC002C9E7A /* TimeTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958C10BF21EF7CFC002C9E7A /* TimeTrackerUITests.swift */; };
+		958C10D121F02A09002C9E7A /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958C10D021F02A09002C9E7A /* Timer.swift */; };
+		958C10F42201F9E5002C9E7A /* TimeEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958C10F32201F9E5002C9E7A /* TimeEntry.swift */; };
+		958C10F62202A412002C9E7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958C10F52202A412002C9E7A /* ViewController.swift */; };
+		958C10F822049557002C9E7A /* TimeLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958C10F722049557002C9E7A /* TimeLog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +45,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		951B6EC42255EBF600377BB4 /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		95261F0622080C60003A7244 /* PushStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushStackView.swift; sourceTree = "<group>"; };
+		95261F08220C87E0003A7244 /* UIView+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Animations.swift"; sourceTree = "<group>"; };
+		95812AC22212556400D10292 /* TimestampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimestampView.swift; sourceTree = "<group>"; };
+		95812AC6221320EC00D10292 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		95832FD6221DF32F004B025B /* TimerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerButton.swift; sourceTree = "<group>"; };
+		95832FDA2228EF68004B025B /* RingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingButton.swift; sourceTree = "<group>"; };
+		95832FDC2229F55F004B025B /* RingLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingLayer.swift; sourceTree = "<group>"; };
 		958C109C21EF7CF7002C9E7A /* TimeTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		958C109F21EF7CF7002C9E7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		958C10A121EF7CF7002C9E7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		958C10A421EF7CF7002C9E7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		958C10A621EF7CFB002C9E7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		958C10A921EF7CFB002C9E7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +65,10 @@
 		958C10BB21EF7CFC002C9E7A /* TimeTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		958C10BF21EF7CFC002C9E7A /* TimeTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTrackerUITests.swift; sourceTree = "<group>"; };
 		958C10C121EF7CFC002C9E7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		958C10D021F02A09002C9E7A /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		958C10F32201F9E5002C9E7A /* TimeEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeEntry.swift; sourceTree = "<group>"; };
+		958C10F52202A412002C9E7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		958C10F722049557002C9E7A /* TimeLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +96,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		95812AC4221320C400D10292 /* Timestamp */ = {
+			isa = PBXGroup;
+			children = (
+				95812AC22212556400D10292 /* TimestampView.swift */,
+				95261F0622080C60003A7244 /* PushStackView.swift */,
+			);
+			path = Timestamp;
+			sourceTree = "<group>";
+		};
+		95812AC5221320D800D10292 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				95812AC6221320EC00D10292 /* TimerView.swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		95832FD5221DF2D7004B025B /* TimerButton */ = {
+			isa = PBXGroup;
+			children = (
+				95832FD6221DF32F004B025B /* TimerButton.swift */,
+				95832FDA2228EF68004B025B /* RingButton.swift */,
+				95832FDC2229F55F004B025B /* RingLayer.swift */,
+			);
+			path = TimerButton;
+			sourceTree = "<group>";
+		};
 		958C109321EF7CF7002C9E7A = {
 			isa = PBXGroup;
 			children = (
@@ -97,11 +146,12 @@
 		958C109E21EF7CF7002C9E7A /* TimeTracker */ = {
 			isa = PBXGroup;
 			children = (
+				958C10CF21F029D7002C9E7A /* Model */,
+				958C10CE21F029D4002C9E7A /* View */,
+				958C10CD21F029CC002C9E7A /* Controller */,
+				958C10DB21F02AE4002C9E7A /* Extensions */,
 				958C109F21EF7CF7002C9E7A /* AppDelegate.swift */,
-				958C10A121EF7CF7002C9E7A /* ViewController.swift */,
-				958C10A321EF7CF7002C9E7A /* Main.storyboard */,
 				958C10A621EF7CFB002C9E7A /* Assets.xcassets */,
-				958C10A821EF7CFB002C9E7A /* LaunchScreen.storyboard */,
 				958C10AB21EF7CFB002C9E7A /* Info.plist */,
 			);
 			path = TimeTracker;
@@ -123,6 +173,61 @@
 				958C10C121EF7CFC002C9E7A /* Info.plist */,
 			);
 			path = TimeTrackerUITests;
+			sourceTree = "<group>";
+		};
+		958C10CD21F029CC002C9E7A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				958C10F52202A412002C9E7A /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		958C10CE21F029D4002C9E7A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				958C10A821EF7CFB002C9E7A /* LaunchScreen.storyboard */,
+				958C10A321EF7CF7002C9E7A /* Main.storyboard */,
+				958C10EB21F25CA9002C9E7A /* Classes */,
+				958C10E921F03586002C9E7A /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		958C10CF21F029D7002C9E7A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				958C10D021F02A09002C9E7A /* Timer.swift */,
+				958C10F32201F9E5002C9E7A /* TimeEntry.swift */,
+				958C10F722049557002C9E7A /* TimeLog.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		958C10DB21F02AE4002C9E7A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				95261F08220C87E0003A7244 /* UIView+Animations.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		958C10E921F03586002C9E7A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		958C10EB21F25CA9002C9E7A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				95812AC4221320C400D10292 /* Timestamp */,
+				95812AC5221320D800D10292 /* Timer */,
+				95832FD5221DF2D7004B025B /* TimerButton */,
+				951B6EC42255EBF600377BB4 /* ContainerView.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,13 +298,16 @@
 				TargetAttributes = {
 					958C109B21EF7CF7002C9E7A = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 					958C10AF21EF7CFC002C9E7A = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = 958C109B21EF7CF7002C9E7A;
 					};
 					958C10BA21EF7CFC002C9E7A = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = 958C109B21EF7CF7002C9E7A;
 					};
 				};
@@ -256,8 +364,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				958C10A221EF7CF7002C9E7A /* ViewController.swift in Sources */,
+				95812AC7221320EC00D10292 /* TimerView.swift in Sources */,
+				958C10F62202A412002C9E7A /* ViewController.swift in Sources */,
+				958C10F42201F9E5002C9E7A /* TimeEntry.swift in Sources */,
+				95832FDB2228EF68004B025B /* RingButton.swift in Sources */,
+				95832FD7221DF32F004B025B /* TimerButton.swift in Sources */,
+				958C10D121F02A09002C9E7A /* Timer.swift in Sources */,
+				95832FDD2229F55F004B025B /* RingLayer.swift in Sources */,
 				958C10A021EF7CF7002C9E7A /* AppDelegate.swift in Sources */,
+				958C10F822049557002C9E7A /* TimeLog.swift in Sources */,
+				95812AC32212556400D10292 /* TimestampView.swift in Sources */,
+				951B6EC52255EBF600377BB4 /* ContainerView.swift in Sources */,
+				95261F0722080C60003A7244 /* PushStackView.swift in Sources */,
+				95261F09220C87E0003A7244 /* UIView+Animations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,7 +560,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = louismenacho.TimeTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -459,7 +578,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = louismenacho.TimeTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -479,7 +598,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = louismenacho.TimeTrackerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeTracker.app/TimeTracker";
 			};
@@ -500,7 +619,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = louismenacho.TimeTrackerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeTracker.app/TimeTracker";
 			};
@@ -520,7 +639,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = louismenacho.TimeTrackerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = TimeTracker;
 			};
@@ -540,7 +659,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = louismenacho.TimeTrackerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = TimeTracker;
 			};
