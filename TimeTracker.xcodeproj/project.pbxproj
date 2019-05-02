@@ -23,8 +23,11 @@
 		958C10C021EF7CFC002C9E7A /* TimeTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958C10BF21EF7CFC002C9E7A /* TimeTrackerUITests.swift */; };
 		958C10D121F02A09002C9E7A /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958C10D021F02A09002C9E7A /* Timer.swift */; };
 		958C10F42201F9E5002C9E7A /* TimeEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958C10F32201F9E5002C9E7A /* TimeEntry.swift */; };
-		958C10F62202A412002C9E7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958C10F52202A412002C9E7A /* ViewController.swift */; };
+		958C10F62202A412002C9E7A /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958C10F52202A412002C9E7A /* TimerViewController.swift */; };
 		958C10F822049557002C9E7A /* TimeLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958C10F722049557002C9E7A /* TimeLog.swift */; };
+		95EB07F422613E5C002F1FE4 /* EntriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EB07F322613E5C002F1FE4 /* EntriesViewController.swift */; };
+		95EB07F6226144E2002F1FE4 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EB07F5226144E2002F1FE4 /* SearchBar.swift */; };
+		95EB07F822614F05002F1FE4 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EB07F722614F05002F1FE4 /* ImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,8 +70,11 @@
 		958C10C121EF7CFC002C9E7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		958C10D021F02A09002C9E7A /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
 		958C10F32201F9E5002C9E7A /* TimeEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeEntry.swift; sourceTree = "<group>"; };
-		958C10F52202A412002C9E7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		958C10F52202A412002C9E7A /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		958C10F722049557002C9E7A /* TimeLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLog.swift; sourceTree = "<group>"; };
+		95EB07F322613E5C002F1FE4 /* EntriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntriesViewController.swift; sourceTree = "<group>"; };
+		95EB07F5226144E2002F1FE4 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		95EB07F722614F05002F1FE4 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,7 +184,8 @@
 		958C10CD21F029CC002C9E7A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				958C10F52202A412002C9E7A /* ViewController.swift */,
+				958C10F52202A412002C9E7A /* TimerViewController.swift */,
+				95EB07F322613E5C002F1FE4 /* EntriesViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -226,6 +233,8 @@
 				95812AC5221320D800D10292 /* Timer */,
 				95832FD5221DF2D7004B025B /* TimerButton */,
 				951B6EC42255EBF600377BB4 /* ContainerView.swift */,
+				95EB07F5226144E2002F1FE4 /* SearchBar.swift */,
+				95EB07F722614F05002F1FE4 /* ImageView.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -365,11 +374,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				95812AC7221320EC00D10292 /* TimerView.swift in Sources */,
-				958C10F62202A412002C9E7A /* ViewController.swift in Sources */,
+				958C10F62202A412002C9E7A /* TimerViewController.swift in Sources */,
+				95EB07F6226144E2002F1FE4 /* SearchBar.swift in Sources */,
 				958C10F42201F9E5002C9E7A /* TimeEntry.swift in Sources */,
 				95832FDB2228EF68004B025B /* RingButton.swift in Sources */,
 				95832FD7221DF32F004B025B /* TimerButton.swift in Sources */,
+				95EB07F422613E5C002F1FE4 /* EntriesViewController.swift in Sources */,
 				958C10D121F02A09002C9E7A /* Timer.swift in Sources */,
+				95EB07F822614F05002F1FE4 /* ImageView.swift in Sources */,
 				95832FDD2229F55F004B025B /* RingLayer.swift in Sources */,
 				958C10A021EF7CF7002C9E7A /* AppDelegate.swift in Sources */,
 				958C10F822049557002C9E7A /* TimeLog.swift in Sources */,

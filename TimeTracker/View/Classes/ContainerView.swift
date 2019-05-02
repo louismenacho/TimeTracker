@@ -20,4 +20,15 @@ class ContainerView: UIView {
     override var intrinsicContentSize: CGSize {
         return CGSize(width: intrinsicWidth, height: intrinsicHeight)
     }
+    
+    @IBInspectable
+    var cornerRadius: CGFloat {
+        get {
+            return layer.cornerRadius
+        }
+        set {
+            layer.cornerRadius = newValue
+        }
+    }
+    
 }
