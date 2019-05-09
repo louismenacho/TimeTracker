@@ -50,7 +50,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="359" height="115"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="5tT-Mi-DhM" customClass="PushStackView" customModule="TimeTracker" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="12" width="179.66666666666666" height="94"/>
+                                                        <rect key="frame" x="0.0" y="11.999999999999993" width="179.66666666666666" height="125.33333333333331"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2AD-qh-SI3">
                                                                 <rect key="frame" x="76.333333333333329" y="0.0" width="27" height="31.333333333333332"/>
@@ -58,21 +58,24 @@
                                                                 <color key="textColor" red="0.32549019607843138" green="0.3529411764705882" blue="0.43137254901960786" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <button hidden="YES" opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hzk-Sw-g6m">
-                                                                <rect key="frame" x="56.333333333333329" y="31.333333333333343" width="67" height="0.0"/>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hzk-Sw-g6m">
+                                                                <rect key="frame" x="54.333333333333343" y="31.333333333333343" width="71" height="31.333333333333329"/>
                                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
-                                                                <state key="normal" title="Set time">
+                                                                <state key="normal" title="Set Time">
                                                                     <color key="titleColor" red="0.26062199470000003" green="0.87432509660000002" blue="0.89976316690000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </state>
+                                                                <connections>
+                                                                    <action selector="setTimeInButtonPressed:" destination="dJk-8g-Nds" eventType="touchUpInside" id="FB1-wb-NAy"/>
+                                                                </connections>
                                                             </button>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="61C-fN-R4o">
-                                                                <rect key="frame" x="65.666666666666671" y="31.333333333333343" width="48.333333333333329" height="31.333333333333329"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="61C-fN-R4o">
+                                                                <rect key="frame" x="65.666666666666671" y="62.666666666666664" width="48.333333333333329" height="31.333333333333336"/>
                                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                                                 <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00 AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dgc-Ke-ECs">
-                                                                <rect key="frame" x="50.000000000000007" y="62.666666666666664" width="79.666666666666686" height="31.333333333333336"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00 AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dgc-Ke-ECs">
+                                                                <rect key="frame" x="50.000000000000007" y="94" width="79.666666666666686" height="31.333333333333329"/>
                                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                                                 <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -94,11 +97,14 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hby-C3-lgz">
-                                                                <rect key="frame" x="56" y="31.333333333333343" width="67" height="31.333333333333329"/>
+                                                                <rect key="frame" x="54" y="31.333333333333343" width="71" height="31.333333333333329"/>
                                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
-                                                                <state key="normal" title="Set time">
+                                                                <state key="normal" title="Set Time">
                                                                     <color key="titleColor" red="0.26062199470000003" green="0.87432509660000002" blue="0.89976316690000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </state>
+                                                                <connections>
+                                                                    <action selector="setTimeOutButtonPressed:" destination="dJk-8g-Nds" eventType="touchUpInside" id="36r-RM-jrY"/>
+                                                                </connections>
                                                             </button>
                                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SCR-MK-Rkk">
                                                                 <rect key="frame" x="65.333333333333343" y="62.666666666666664" width="48.333333333333343" height="31.333333333333336"/>
@@ -238,8 +244,8 @@
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
+                                            <constraint firstItem="cyc-Uw-Tso" firstAttribute="centerX" secondItem="SaE-oD-NWx" secondAttribute="centerX" id="46f-vQ-Jwr"/>
                                             <constraint firstItem="xv8-qA-iNf" firstAttribute="centerY" secondItem="SaE-oD-NWx" secondAttribute="centerY" id="DnX-2b-rg3"/>
-                                            <constraint firstItem="xv8-qA-iNf" firstAttribute="centerX" secondItem="SaE-oD-NWx" secondAttribute="centerX" id="LzP-Qb-j6r"/>
                                         </constraints>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="intrinsicHeight">
@@ -313,18 +319,100 @@
                                     </view>
                                 </subviews>
                             </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Ks-Zc-AgW" customClass="DatePickerView" customModule="TimeTracker" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="729" width="375" height="285"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9TB-bn-i5F">
+                                        <rect key="frame" x="8" y="4" width="359" height="33"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3HS-k6-mNM">
+                                                <rect key="frame" x="0.0" y="0.0" width="55" height="33"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                <state key="normal" title="Cancel">
+                                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="cancelButtonPressed:" destination="dJk-8g-Nds" eventType="touchUpInside" id="kyx-Q0-PCO"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BAq-2d-7Iy" userLabel="Done">
+                                                <rect key="frame" x="317" y="0.0" width="42" height="33"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                                <state key="normal" title="Done">
+                                                    <color key="titleColor" red="0.26062199470000003" green="0.87432509660000002" blue="0.89976316690000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="doneButtonPressed:" destination="dJk-8g-Nds" eventType="touchUpInside" id="Znb-2v-Chp"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="3HS-k6-mNM" firstAttribute="top" secondItem="9TB-bn-i5F" secondAttribute="top" id="9uL-Ua-6Al"/>
+                                            <constraint firstAttribute="bottom" secondItem="BAq-2d-7Iy" secondAttribute="bottom" id="EsU-RN-kUQ"/>
+                                            <constraint firstAttribute="bottom" secondItem="3HS-k6-mNM" secondAttribute="bottom" id="F6e-7x-sLR"/>
+                                            <constraint firstAttribute="trailing" secondItem="BAq-2d-7Iy" secondAttribute="trailing" id="HQi-Qp-B88"/>
+                                            <constraint firstItem="3HS-k6-mNM" firstAttribute="leading" secondItem="9TB-bn-i5F" secondAttribute="leading" id="TL9-jK-3y4"/>
+                                            <constraint firstItem="BAq-2d-7Iy" firstAttribute="top" secondItem="9TB-bn-i5F" secondAttribute="top" id="wDr-Fi-UGX"/>
+                                        </constraints>
+                                    </view>
+                                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Mrr-uR-mWn">
+                                        <rect key="frame" x="0.0" y="69" width="375" height="216"/>
+                                        <date key="date" timeIntervalSinceReferenceDate="578504400.57971096">
+                                            <!--2019-05-02 15:40:00 +0000-->
+                                        </date>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                                <color key="value" red="0.32549019610000002" green="0.35294117650000001" blue="0.43137254899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="background">
+                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </datePicker>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="hM9-q6-V6J">
+                                        <rect key="frame" x="8" y="41" width="359" height="29"/>
+                                        <segments>
+                                            <segment title="Start Clock At"/>
+                                            <segment title="Stop Clock At"/>
+                                        </segments>
+                                        <color key="tintColor" red="0.26062199470000003" green="0.87432509660000002" blue="0.89976316690000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </segmentedControl>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="9TB-bn-i5F" secondAttribute="trailing" constant="8" id="1A5-k3-bsy"/>
+                                    <constraint firstItem="Mrr-uR-mWn" firstAttribute="top" secondItem="hM9-q6-V6J" secondAttribute="bottom" id="4bN-O8-GOb"/>
+                                    <constraint firstAttribute="trailing" secondItem="Mrr-uR-mWn" secondAttribute="trailing" id="8IS-6P-3ou"/>
+                                    <constraint firstItem="hM9-q6-V6J" firstAttribute="leading" secondItem="8Ks-Zc-AgW" secondAttribute="leading" constant="8" id="A7C-cW-EbA"/>
+                                    <constraint firstAttribute="bottom" secondItem="Mrr-uR-mWn" secondAttribute="bottom" id="BeT-8z-JPq"/>
+                                    <constraint firstItem="9TB-bn-i5F" firstAttribute="top" secondItem="8Ks-Zc-AgW" secondAttribute="top" constant="4" id="DSR-fP-7VN"/>
+                                    <constraint firstItem="hM9-q6-V6J" firstAttribute="top" secondItem="9TB-bn-i5F" secondAttribute="bottom" constant="4" id="SYu-LV-Tg1"/>
+                                    <constraint firstItem="Mrr-uR-mWn" firstAttribute="leading" secondItem="8Ks-Zc-AgW" secondAttribute="leading" id="Sh9-O1-LTm"/>
+                                    <constraint firstAttribute="trailing" secondItem="hM9-q6-V6J" secondAttribute="trailing" constant="8" id="qsL-cZ-cna"/>
+                                    <constraint firstItem="9TB-bn-i5F" firstAttribute="leading" secondItem="8Ks-Zc-AgW" secondAttribute="leading" constant="8" id="wzp-WF-ZU8"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="datePicker" destination="Mrr-uR-mWn" id="Tex-Xp-KuU"/>
+                                    <outlet property="segmentedControl" destination="hM9-q6-V6J" id="jRz-dI-5pM"/>
+                                </connections>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Mbb-2j-Dyf" firstAttribute="trailing" secondItem="Z1b-e0-KSx" secondAttribute="trailing" constant="8" id="KgZ-cU-CNd"/>
                             <constraint firstItem="Z1b-e0-KSx" firstAttribute="bottom" secondItem="Mbb-2j-Dyf" secondAttribute="bottom" id="OdB-bb-Urf"/>
+                            <constraint firstItem="8Ks-Zc-AgW" firstAttribute="trailing" secondItem="Mbb-2j-Dyf" secondAttribute="trailing" id="Qom-XY-Wbj"/>
                             <constraint firstItem="Z1b-e0-KSx" firstAttribute="top" secondItem="Mbb-2j-Dyf" secondAttribute="top" id="Tne-x6-S3x"/>
                             <constraint firstItem="Z1b-e0-KSx" firstAttribute="leading" secondItem="Mbb-2j-Dyf" secondAttribute="leading" constant="8" id="vtt-UT-LTV"/>
+                            <constraint firstItem="Mbb-2j-Dyf" firstAttribute="bottom" secondItem="8Ks-Zc-AgW" secondAttribute="bottom" constant="-285" id="vus-Yj-uLE"/>
+                            <constraint firstItem="8Ks-Zc-AgW" firstAttribute="leading" secondItem="Mbb-2j-Dyf" secondAttribute="leading" id="x4I-aR-hCE"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Mbb-2j-Dyf"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="dU0-A1-Kgs"/>
                     <connections>
+                        <outlet property="datePickerView" destination="8Ks-Zc-AgW" id="7fd-dy-x5I"/>
                         <outlet property="footerLabel" destination="f1O-Ma-8ub" id="HFy-ZO-T7Y"/>
                         <outlet property="timerButton" destination="qkE-63-Dhz" id="kGF-J4-kc4"/>
                         <outlet property="timerView" destination="xv8-qA-iNf" id="tGk-R6-5ZY"/>
@@ -338,7 +426,7 @@
                     </connections>
                 </pongPressGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1860" y="78"/>
+            <point key="canvasLocation" x="1860" y="77.58620689655173"/>
         </scene>
         <!--Item-->
         <scene sceneID="XOO-b2-zdp">

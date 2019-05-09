@@ -25,6 +25,7 @@
 		958C10F42201F9E5002C9E7A /* TimeEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958C10F32201F9E5002C9E7A /* TimeEntry.swift */; };
 		958C10F62202A412002C9E7A /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958C10F52202A412002C9E7A /* TimerViewController.swift */; };
 		958C10F822049557002C9E7A /* TimeLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958C10F722049557002C9E7A /* TimeLog.swift */; };
+		95A6AF55227A9C2B00E4C344 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A6AF54227A9C2B00E4C344 /* DatePickerView.swift */; };
 		95EB07F422613E5C002F1FE4 /* EntriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EB07F322613E5C002F1FE4 /* EntriesViewController.swift */; };
 		95EB07F6226144E2002F1FE4 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EB07F5226144E2002F1FE4 /* SearchBar.swift */; };
 		95EB07F822614F05002F1FE4 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EB07F722614F05002F1FE4 /* ImageView.swift */; };
@@ -72,6 +73,7 @@
 		958C10F32201F9E5002C9E7A /* TimeEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeEntry.swift; sourceTree = "<group>"; };
 		958C10F52202A412002C9E7A /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		958C10F722049557002C9E7A /* TimeLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLog.swift; sourceTree = "<group>"; };
+		95A6AF54227A9C2B00E4C344 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
 		95EB07F322613E5C002F1FE4 /* EntriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntriesViewController.swift; sourceTree = "<group>"; };
 		95EB07F5226144E2002F1FE4 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		95EB07F722614F05002F1FE4 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
@@ -229,6 +231,7 @@
 		958C10EB21F25CA9002C9E7A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				95A6AF51227A9BFA00E4C344 /* DatePicker */,
 				95812AC4221320C400D10292 /* Timestamp */,
 				95812AC5221320D800D10292 /* Timer */,
 				95832FD5221DF2D7004B025B /* TimerButton */,
@@ -237,6 +240,14 @@
 				95EB07F722614F05002F1FE4 /* ImageView.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		95A6AF51227A9BFA00E4C344 /* DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				95A6AF54227A9C2B00E4C344 /* DatePickerView.swift */,
+			);
+			path = DatePicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -374,6 +385,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95812AC7221320EC00D10292 /* TimerView.swift in Sources */,
+				95A6AF55227A9C2B00E4C344 /* DatePickerView.swift in Sources */,
 				958C10F62202A412002C9E7A /* TimerViewController.swift in Sources */,
 				95EB07F6226144E2002F1FE4 /* SearchBar.swift in Sources */,
 				958C10F42201F9E5002C9E7A /* TimeEntry.swift in Sources */,

@@ -29,8 +29,11 @@ class TimerView: UIStackView {
     }
     
     func update(time: Seconds) {
-        hoursLabel.text = String(format: "%02d", time / 3600)
-        minutesLabel.text = String(format: "%02d", time / 60)
-        secondsLabel.text = String(format: "%02d", time % 60)
+        let hours = time / 3600
+        let minutes = (time / 60) % 60
+        let seconds = time % 60
+        hoursLabel.text = String(format: "%02d", abs(hours))
+        minutesLabel.text = String(format: "%02d", abs(minutes))
+        secondsLabel.text = String(format: "%02d", abs(seconds))
     }
 }

@@ -14,7 +14,11 @@ class PushStackView: UIStackView {
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var timeLabel: UILabel!
     
+    var isTimeHidden: Bool = true
+    
     func showTime() {
+        if !isTimeHidden { return }
+        isTimeHidden = false
         setTimeButton.pushFadeOut(duration: 0.25, direction: .fromBottom, completion: {
             self.setTimeButton.isHidden = true
             self.dateLabel.pushFadeIn(duration: 0.25, direction: .fromTop)
@@ -23,6 +27,8 @@ class PushStackView: UIStackView {
     }
     
     func hideTime() {
+        if isTimeHidden { return }
+        isTimeHidden = true
         timeLabel.pushFadeOut(duration: 0.25, direction: .fromBottom)
         dateLabel.pushFadeOut(duration: 0.25, delay: 0.10, direction: .fromBottom, completion: {
             self.setTimeButton.isHidden = false
